@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -12,6 +16,7 @@ body {
   font-family: 'Outfit', sans-serif;
   color: hsl(220, 15%, 55%);
   font-size: 0.780rem;
+  box-sizing: border-box;
 }
 
 .container {
@@ -31,7 +36,7 @@ img {
   width: 19rem;
   height: 19rem;
   border-radius: 0.780rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .attribution {
@@ -54,4 +59,10 @@ p {
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin: 5.3125rem auto;
+  }
 }
